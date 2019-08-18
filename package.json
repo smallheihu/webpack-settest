@@ -1,0 +1,37 @@
+{
+  "name": "webpack-settest",
+  "version": "1.0.0",
+  "description": "webpack set test app",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "build": "webpack --config build/webpack.prod.conf.js"
+  },
+  "author": "smallheihu@163.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^4.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.10.1",
+    "less-loader": "^5.0.0",
+    "portfinder": "^1.0.22",
+    "style-loader": "^1.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.5.5"
+  }
+}
